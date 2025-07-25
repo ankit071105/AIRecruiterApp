@@ -1,0 +1,17 @@
+# Specify python version compatibility in deployment settings, not here
+# Remove 'python 3.8+' line as it is invalid syntax in requirements.txt
+
+streamlit
+pymupdf
+nltk
+spacy
+sentence-transformers
+matplotlib
+seaborn
+faiss-cpu
+numpy
+pandas
+regex
+tempfile  # Note: tempfile is part of the standard library, no need to install
+scikit-learn  # Use correct package name instead of 'sklearn'
+
