@@ -1,14 +1,13 @@
-streamlit
-pymupdf
-nltk
-spacy
-sentence-transformers
-matplotlib
-seaborn
-faiss-cpu
-numpy
-pandas
-regex
-scikit-learn
+streamlit==1.47.0
+pymupdf==1.26.3
+nltk==3.9.1
+spacy==3.8.7
+sentence-transformers==5.0.0
+matplotlib==3.10.3
+seaborn==0.13.2
+faiss-cpu==1.11.0
+numpy==2.3.2
+pandas==2.3.1
+regex==2024.11.6
 
 
