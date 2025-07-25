@@ -1,0 +1,16 @@
+python 3.8+
+streamlit
+pymupdf
+nltk
+spacy
+sentence-transformers
+matplotlib
+seaborn
+faiss-cpu
+numpy
+pandas
+regex
+FAISS
+faiss-cpu
+tempfile
+sklearn
