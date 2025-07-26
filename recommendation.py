@@ -92,7 +92,7 @@ def show_recommendation(resume_text, jd_text):
     def card(title, content):
         st.markdown(f"""
         <div style="background-color:#212F45;padding:1rem;border-radius:10px;margin-bottom:1rem;">
-            <h4 style="color:#ffffff;margin-bottom:0.5rem;">ZenResume</h4>
+            <h4 style="color:#ffffff;margin-bottom:0.5rem;">{title}</h4>
             <div style="color:#e0e0e0;font-size:0.95rem;">{content}</div>
         </div>
         """, unsafe_allow_html=True)
