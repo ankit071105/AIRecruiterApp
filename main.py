@@ -46,7 +46,7 @@ if st.session_state.show_tabs and resume_text and jd_text:
             margin-bottom: 0.2rem;
             text-shadow: 1px 1px 2px #00000050;
         '>
-             NeuroHire
+             ZenResume
         </h1>
        
     </div>
