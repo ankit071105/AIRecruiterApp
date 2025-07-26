@@ -88,7 +88,7 @@ else:
             margin-bottom: 0.2rem;
             text-shadow: 1px 1px 2px #00000050;
         '>
-            NeuroHire
+    ZenResume
         </h1>
        
     </div>
