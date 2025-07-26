@@ -2,14 +2,14 @@
 
 body,
 .stApp {
-  background: linear-gradient(90deg, #177c93, #1b306b);
+  background-color: #220901;
   color: #f4f3ee;
   font-family: "Segoe UI", sans-serif;
 }
 
 /* Header branding */
 .header-bar {
-  background: linear-gradient(90deg, #177c93, #1b306b);
+  background: linear-gradient(90deg, #621708, #941b0c);
   padding: 1rem 2rem;
   color: #f4f3ee;
   font-size: 1.5rem;
@@ -25,7 +25,7 @@ body,
 }
 
 .custom-card {
-    background-color: #200935;
+    background-color: #212F45;
     border-radius: 18px;
     padding: 20px;
     margin: 25px 0;
@@ -48,7 +48,7 @@ body,
 
 /* Card styling */
 .stContainer {
-  background: linear-gradient(90deg, #177c93, #1b306b);
+  background-color: #621708;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -57,7 +57,7 @@ body,
 
 /* Buttons */
 .stButton > button {
-  background: linear-gradient(90deg, #174b93, #1a073f);
+  background: linear-gradient(45deg, #bc3908, #941b0c);
   color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -66,13 +66,13 @@ body,
 }
 
 .stButton > button:hover {
-  background: linear-gradient(90deg, #174b93, #1a073f);
+  background: linear-gradient(45deg, #941b0c, #621708);
   transform: scale(1.05);
 }
 
 /* Sidebar */
 .stSidebar {
-  background: rgb(19, 54, 100);
+  background-color: #2e0c02 !important;
   color: #f4f3ee;
 }
 
@@ -85,7 +85,7 @@ body,
 /* Tabs */
 /* Tabs Container */
 .stTabs [data-baseweb="tab"] {
-  background-color: #210535; /* unselected tab */
+  background-color: #621708; /* unselected tab */
   color: #f4f3ee;
   border-radius: 10px 10px 0 0;
   margin-right: 8px;
@@ -100,7 +100,7 @@ body,
 
 /* Hover effect */
 .stTabs [data-baseweb="tab"]:hover {
-  background-color: #073357;
+  background-color: #941B0C;
   transform: translateY(-2px);
 }
 
