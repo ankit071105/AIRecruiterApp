@@ -127,6 +127,8 @@ if st.session_state.show_tabs and resume_text and jd_text:
         with st.spinner("Generating final recommendations..."):
             show_recommendation(resume_text, jd_text)
 
+# ... rest of your code ...
+
 else:
     st.markdown("""
     <div style='text-align: center; margin-bottom: 2.5rem;' class="float">
@@ -155,4 +157,4 @@ else:
         </div>
         """, unsafe_allow_html=True)
     
-    st.info("📄 Please upload Resume and Job Description, then click **Launch Analysis** in the sidebar.")    st.info("📄 Please upload Resume and Job Description, then click **Next** in sidebar.")
+    st.info("📄 Please upload Resume and Job Description, then click **Launch Analysis** in the sidebar.")
