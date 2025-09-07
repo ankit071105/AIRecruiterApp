@@ -167,8 +167,8 @@ def show_job_matches(resume_text, jd_text):
         plt.yticks([25, 50, 75, 100], ["25%", "50%", "75%", "100%"], color="white", size=10)
         plt.ylim(0, 100)
         
-        # Add grid
-        ax.grid(True, color='rgba(255, 255, 255, 0.2)', linestyle='--', linewidth=0.5)
+        # Add grid with correct color format
+        ax.grid(True, color='#FFFFFF', alpha=0.2, linestyle='--', linewidth=0.5)
         
         # Set background color
         ax.set_facecolor('#0a0e17')
@@ -206,8 +206,8 @@ def show_job_matches(resume_text, jd_text):
         ax3.set_facecolor('#0a0e17')
         fig3.patch.set_facecolor('#0a0e17')
         
-        # Add grid
-        ax3.grid(True, color='rgba(255, 255, 255, 0.1)', linestyle='--', linewidth=0.5)
+        # Add grid with correct color format
+        ax3.grid(True, color='#FFFFFF', alpha=0.1, linestyle='--', linewidth=0.5)
         
         plt.tight_layout()
         st.pyplot(fig3)
@@ -238,8 +238,8 @@ def show_job_matches(resume_text, jd_text):
         ax4.set_facecolor('#0a0e17')
         fig4.patch.set_facecolor('#0a0e17')
         
-        # Add grid
-        ax4.grid(True, color='rgba(255, 255, 255, 0.1)', linestyle='--', linewidth=0.5)
+        # Add grid with correct color format
+        ax4.grid(True, color='#FFFFFF', alpha=0.1, linestyle='--', linewidth=0.5)
         
         plt.tight_layout()
         st.pyplot(fig4)
