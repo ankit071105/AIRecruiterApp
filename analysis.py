@@ -6,7 +6,7 @@ from nlp_utils import generate_red_flags_html
 
 
 def show_analysis(resume_text, jd_text_list=None):
-    st.markdown("<h2 class='section-title'>🔍 Resume Deep Analysis</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 class='section-title'>🔭 Cosmic Resume Analysis</h2>", unsafe_allow_html=True)
 
     # Extract info from resume
     info = extract_basic_info(resume_text)
